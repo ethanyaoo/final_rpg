@@ -28,6 +28,7 @@ if (global.inNarrative)
 	
 		if (cooldown <= 0)
 		{
+			audio_play_sound(snd_textTyping, 10, false);
 			index++;
 			text_displayed = string_copy(text, 1, index);
 			cooldown = text_speed;

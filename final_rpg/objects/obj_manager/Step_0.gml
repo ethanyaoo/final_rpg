@@ -19,7 +19,7 @@ if (room == Level1)
 		global.inNarrative = true;
 		obj_player.firstKilled = true;
 		room = Menu;
-		obj_narrative.value = "EEEEEE";
+		obj_narrative.value = "EEEEEEE";
 	}
 	
 	
@@ -30,14 +30,14 @@ if (room == Level1)
 }
 else if (room == Menu)
 {
-	if (obj_narrative.value == "EEEEE")
+	if (obj_narrative.value == "EEEEEE")
 	{
 		if (keyboard_check(vk_enter))
 		{
 			room = Level1;
 		}
 	}
-	else if (obj_narrative.value == "EEEEEEEEE")
+	else if (obj_narrative.value == "EEEEEEEEEEEE")
 	{
 		if (keyboard_check(vk_enter))
 		{
