@@ -16,6 +16,8 @@ returnColor = false;
 
 tempEnemy = pointer_null;
 
+firstKilled = false;
+
 
 // Attacks
 

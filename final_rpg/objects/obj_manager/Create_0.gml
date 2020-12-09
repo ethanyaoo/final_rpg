@@ -5,7 +5,9 @@
 totalOrcs = 0;
 
 poss_destinations = [[200, 300], [400, 200], [550, 230], [200, 400], [500, 630], [350, 400], [425, 460]];
-num_des = 7
+num_des = 7;
+
+global.inNarrative = true;
 
 function getDestination(){
 	randomize()

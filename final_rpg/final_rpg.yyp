@@ -27,6 +27,7 @@
     {"id":{"name":"spr_player_attack_right","path":"sprites/spr_player_attack_right/spr_player_attack_right.yy",},"order":26,},
     {"id":{"name":"spr_dog","path":"sprites/spr_dog/spr_dog.yy",},"order":4,},
     {"id":{"name":"obj_collidable","path":"objects/obj_collidable/obj_collidable.yy",},"order":4,},
+    {"id":{"name":"obj_narrative","path":"objects/obj_narrative/obj_narrative.yy",},"order":15,},
     {"id":{"name":"obj_grid_manager","path":"objects/obj_grid_manager/obj_grid_manager.yy",},"order":7,},
     {"id":{"name":"pixelFont","path":"fonts/pixelFont/pixelFont.yy",},"order":1,},
     {"id":{"name":"sprEvolutionBar","path":"sprites/sprEvolutionBar/sprEvolutionBar.yy",},"order":34,},
@@ -72,8 +73,8 @@
     "children": [],
   },
   "RoomOrder": [
-    {"name":"Level1","path":"rooms/Level1/Level1.yy",},
     {"name":"Menu","path":"rooms/Menu/Menu.yy",},
+    {"name":"Level1","path":"rooms/Level1/Level1.yy",},
     {"name":"Level2","path":"rooms/Level2/Level2.yy",},
   ],
   "Folders": [

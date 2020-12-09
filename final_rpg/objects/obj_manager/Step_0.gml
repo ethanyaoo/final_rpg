@@ -14,9 +14,34 @@ if (room == Level1)
 	}
 	*/
 	
+	if ((obj_player.firstKilled == false) && (obj_player.evolutionProgress == 1))
+	{
+		global.inNarrative = true;
+		obj_player.firstKilled = true;
+		room = Menu;
+		obj_narrative.value = "EEEEEE";
+	}
+	
 	
 	if (keyboard_check(ord("R")))
 	{
 		room_restart();
+	}
+}
+else if (room == Menu)
+{
+	if (obj_narrative.value == "EEEEE")
+	{
+		if (keyboard_check(vk_enter))
+		{
+			room = Level1;
+		}
+	}
+	else if (obj_narrative.value == "EEEEEEEEE")
+	{
+		if (keyboard_check(vk_enter))
+		{
+			room = Level1;
+		}
 	}
 }
