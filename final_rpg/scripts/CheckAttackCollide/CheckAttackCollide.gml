@@ -40,12 +40,13 @@ function CheckAttackCollide(enemyCheck, damageDealt)
 	}
 	
 	if (enemyCheck.healthLeft == 0)
-	{
-		instance_destroy(enemyCheck);
-		
+	{	
 		if (enemyCheck != obj_player)
 		{
+			instance_destroy(enemyCheck);
+			
 			obj_player.evolutionProgress++;
+			
 		}
 	}
 }

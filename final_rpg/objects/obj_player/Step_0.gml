@@ -3,7 +3,7 @@ event_inherited();
 
 if (healthLeft == 0)
 {
-	instance_destroy(obj_player);
+	//instance_destroy(obj_player);
 }
 
 if (keyboard_check(ord("Y")))
@@ -55,6 +55,11 @@ or keyboard_check(ord("A"))
 or keyboard_check(ord("S"))
 or keyboard_check(ord("D")){		// if pressing any move keys, move player!
 	MoveCollide()
+}
+
+if (!attacking && image_blend == c_red)
+{
+	image_blend = -1;
 }
 
 if (keyboard_check(vk_space))

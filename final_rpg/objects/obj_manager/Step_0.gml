@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (room == rm_town)
+if (room == Level1)
 {
 	
-	
+	/*
 	if (totalOrcs < 5)
 	{
 		getDestination();
@@ -12,6 +12,7 @@ if (room == rm_town)
 		
 		totalOrcs++;
 	}
+	*/
 	
 	
 	if (keyboard_check(ord("R")))
