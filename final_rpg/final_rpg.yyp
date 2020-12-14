@@ -53,6 +53,7 @@
     {"id":{"name":"snd_background","path":"sounds/snd_background/snd_background.yy",},"order":1,},
     {"id":{"name":"spr_orc_up","path":"sprites/spr_orc_up/spr_orc_up.yy",},"order":38,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":5,},
+    {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},"order":5,},
     {"id":{"name":"spr_player_attack_up","path":"sprites/spr_player_attack_up/spr_player_attack_up.yy",},"order":27,},
   ],
   "Options": [
@@ -76,6 +77,7 @@
   },
   "RoomOrder": [
     {"name":"Menu","path":"rooms/Menu/Menu.yy",},
+    {"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},
     {"name":"Level1","path":"rooms/Level1/Level1.yy",},
     {"name":"Level2","path":"rooms/Level2/Level2.yy",},
   ],

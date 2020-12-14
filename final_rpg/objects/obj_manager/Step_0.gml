@@ -27,6 +27,11 @@ if (room == Level1)
 	{
 		room_restart();
 	}
+	
+	if (obj_player.healthLeft == 0)
+	{
+		room = GameOver;
+	}
 }
 else if (room == Menu)
 {
@@ -42,6 +47,19 @@ else if (room == Menu)
 		if (keyboard_check(vk_enter))
 		{
 			room = Level1;
+		}
+	}
+}
+else if (room == GameOver)
+{
+	global.inNarrative = true;
+	obj_narrative.value = "G";
+	
+	if (obj_narrative.value == "GE")
+	{
+		if (keyboard_check(vk_enter))
+		{
+			game_end();
 		}
 	}
 }

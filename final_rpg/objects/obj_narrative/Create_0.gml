@@ -24,5 +24,14 @@ ds_map_add(textMap, "EEEEEEEEE", "what are orcs . . . why do I know that name");
 ds_map_add(textMap, "EEEEEEEEEE", "their blood . . . ");
 ds_map_add(textMap, "EEEEEEEEEEE", "it's wrong . . . but the pain");
 
+ds_map_add(textMap, "G", "The pain . . .");
+ds_map_add(textMap, "GE", "it's gone");
+
+if (room == GameOver)
+{
+	value = "G";
+}
+
+
 audio_stop_sound(snd_background);
 audio_play_sound(snd_background, 10, true);
