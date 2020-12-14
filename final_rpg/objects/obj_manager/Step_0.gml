@@ -6,10 +6,10 @@ if (room == Level1)
 	
 	if ((obj_player.firstKilled == false) && (obj_player.evolutionProgress == 1))
 	{
-		obj_narrative.value = "EEEEEEEEEE";
 		global.inNarrative = true;
 		obj_player.firstKilled = true;
 		room = Menu;
+		obj_narrative.value = "EEEEEEEEEE";
 	}
 	else if ((obj_player.x > 250) && (obj_player.y > 145) && (obj_narrative.value != "EEEEEEEEEE"))
 	{
@@ -31,12 +31,12 @@ if (room == Level1)
 }
 else if (room == Level2)
 {
-	if (totalOrcs < 5)
+	if (totalOrcs <= 5)
 	{
 		getDestination();
 		instance_create_layer(des_x, des_y, "Instances", obj_enemy);
 		
-		totalOrcs++;
+		totalOrcs += 1;
 	}
 	
 	
@@ -47,7 +47,7 @@ else if (room == Level2)
 		obj_narrative.value = "EEEEEEEEEEEE";
 	}
 	
-	if ((playerSpecies == "orc") && (evolutionProgress == evolutionProgressGoal))
+	if ((obj_player.playerSpecies == "orc") && (obj_player.evolutionProgress == obj_player.evolutionProgressGoal))
 	{
 		global.inNarrative = false;
 		room = gameOver;
@@ -69,10 +69,18 @@ else if (room == Menu)
 			room = Level1;
 		}
 	}
-	else if (obj_narrative.value == "EEEEEEEEEEEE")
+	else if (obj_narrative.value == "EEEEEEEEEE")
 	{
 		if (keyboard_check(vk_enter))
 		{
+			room = Level1;
+		}
+	}
+	else if ((obj_narrative.value == "EEEEEEEEEEEE") || (obj_narrative.value == "EEEEEEEEEEEEE"))
+	{
+		if (keyboard_check(vk_enter))
+		{
+			global.inNarrative = false;
 			room = Level2;
 		}
 	}
