@@ -40,7 +40,6 @@
     {"id":{"name":"sprHealthBarFrame","path":"sprites/sprHealthBarFrame/sprHealthBarFrame.yy",},"order":31,},
     {"id":{"name":"spr_tileset_wells","path":"sprites/spr_tileset_wells/spr_tileset_wells.yy",},"order":44,},
     {"id":{"name":"obj_dog","path":"objects/obj_dog/obj_dog.yy",},"order":8,},
-    {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},"order":3,},
     {"id":{"name":"spr_player_walk_back","path":"sprites/spr_player_walk_back/spr_player_walk_back.yy",},"order":15,},
     {"id":{"name":"snd_textTyping","path":"sounds/snd_textTyping/snd_textTyping.yy",},"order":2,},
     {"id":{"name":"MoveCollide","path":"scripts/MoveCollide/MoveCollide.yy",},"order":0,},

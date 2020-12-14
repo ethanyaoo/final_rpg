@@ -4,10 +4,13 @@
 
 totalOrcs = 0;
 
-poss_destinations = [[200, 300], [400, 200], [550, 230], [200, 400], [500, 630], [350, 400], [425, 460]];
-num_des = 7;
+poss_destinations = [[127, 194], [192, 257], [145, 322], [264, 314], [308, 193], [439, 167], [393, 259], [455, 307], [530, 260], [550, 160]];
+num_des = 10;
 
 global.inNarrative = true;
+
+gameOver = false;
+
 
 function getDestination(){
 	randomize()

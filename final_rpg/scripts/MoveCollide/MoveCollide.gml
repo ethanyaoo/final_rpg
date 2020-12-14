@@ -40,6 +40,26 @@ function MoveCollide(){
 		}
 	}
 	
+	if (room == Level1)
+	{
+		if (y > room_height)
+		{
+			room = Level2;
+		}
+		else if (y < 0)
+		{
+			y = 0;
+		}
+	}
+	else
+	{
+		if (y < 0)
+		{
+			room = Level1;
+		}
+	}
+	
+	/*
 	//screen wrapping
 	if x > room_width{
 	    x = 0
@@ -60,6 +80,7 @@ function MoveCollide(){
 	    y = room_height
 		y_remainder = 0
 	}
+	*/
 	
 	
 }

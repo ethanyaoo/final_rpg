@@ -18,7 +18,11 @@ tempEnemy = pointer_null;
 
 firstKilled = false;
 
+randVal = 0;
+
 randValMax = 3;
+
+evolving = false;
 
 
 // Attacks

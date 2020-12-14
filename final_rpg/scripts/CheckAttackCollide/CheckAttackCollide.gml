@@ -47,6 +47,8 @@ function CheckAttackCollide(enemyCheck, damageDealt)
 			
 			obj_player.evolutionProgress++;
 			
+			obj_manager.totalOrcs--;
+			
 		}
 	}
 }

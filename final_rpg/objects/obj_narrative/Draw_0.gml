@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-if (global.inNarrative)
+if (global.inNarrative && !obj_manager.gameOver)
 {
 	draw_set_color(c_black);
 	draw_set_alpha(1);

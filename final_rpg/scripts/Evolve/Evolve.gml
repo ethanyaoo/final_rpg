@@ -28,7 +28,7 @@ function Evolve()
 
 		spriteIdle = spr_orc_idle;
 		
-		sprite_index = spriteIdle;
+		sprite_index = spr_evolution;
 	}
 
 }

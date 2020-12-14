@@ -23,6 +23,7 @@ ds_map_add(textMap, "EEEEEEEE", "Wait . . . ");
 ds_map_add(textMap, "EEEEEEEEE", "what are orcs . . . why do I know that name");
 ds_map_add(textMap, "EEEEEEEEEE", "their blood . . . ");
 ds_map_add(textMap, "EEEEEEEEEEE", "it's wrong . . . but the pain");
+ds_map_add(textMap, "EEEEEEEEEEEE", "kill  . . . kill . . . kill more");
 
 ds_map_add(textMap, "G", "The pain . . .");
 ds_map_add(textMap, "GE", "it's gone");
