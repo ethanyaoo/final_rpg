@@ -12,7 +12,8 @@ if (evolving == false)
 	// Damage test
 	if (keyboard_check(ord("Y")))
 	{
-		healthLeft--;
+		playerSpecies = "orc";
+		Evolve();
 	}
 
 	
